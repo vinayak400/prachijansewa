@@ -1,0 +1,5 @@
+from pathlib import Path
+html="<html><head><meta charset='UTF-8'><title>PRACHI JAN SEWA KENDRA</title></head><body><h1>PRACHI JAN SEWA KENDRA</h1><p>CSC | IPPB | DIGITAL INDIA</p><p>South Murain Tola, Near Hanuman Mandir, Fatehpur 212601</p><p>Mobile:9870750204 WhatsApp:8924862526</p><img src='csc.png' width='80'><img src='ippb.png' width='80'><img src='shop.jpg' width='300'><h2>PAN CARD DOCUMENTS</h2><ul><li>Aadhaar</li><li>DOB Proof</li><li>Photo</li></ul><input type='file' multiple><br><a href='https://wa.me/918924862526'>WhatsApp</a></body></html>"
+p="/mnt/data/index.html"
+Path(p).write_text(html,encoding="utf-8")
+print(p)
